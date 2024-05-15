@@ -1,0 +1,27 @@
+2024-05-13 Monday
+
+Structure Data: Numbers, Text, Dates.
+	Something can be organized - Tabular Form
+	Ex: Author, Date, Text of the post, Number of likes/comments/ URL links
+Unstructured Data: Images, Videos, Documents
+	Uneasy to put in the excel sheet/ table
+	Ex:Facebook Post
+
+
+Data: Stored representations of meaningful objects and events
+
+Information: data processed to increase knowledge in the person using the data
+
+
+To store data - Storage:
+Excel, PDF
+Cell phone app, Service, Cloud — Database — data lake/data warehouse — CSV uploader
+Hard Drive, Paper(Files-physical)
+My memory, Photo Album
+SMS
+
+Variable Data Type
+Name	 	String/Text/Charactor
+ID		Integer	
+Major		String/Text/Charactor
+GPA		Float/Decimal/Numerical
