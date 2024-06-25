@@ -45,3 +45,31 @@ Cardinality
 	one to one 			Mandatory
 	one to many			Optional
 	many to many
+
+
+==============================================================================================================================================================
+#2024-06-24 
+USE a80sxh_db
+
+#DATE/TIME FUNCTION
+SELECT CURRENT_TIMESTAMP AS current_datetime;
+
+#System date and time function can be used to return the current system datetime (Higher Precisim)
+
+SELECT SYSDATETIME()        AS system_datetime;
+SELECT SYSDATETIMEOFFSET()  AS sys_datetime_offset;
+SELECT SYSUTCDATETIME()     AS sys_utc_datetime;
+
+#Two options to get the date and tie of the computer on which the instance of SQL Server runs(Lower Precision)
+SELECT GETUTCDATE();
+
+#Lower Precision
+SELECT CURRENT_TIMESTAMP AS current_datetime;
+SELECT GETDATE()         AS current_datetime;
+SELECT GETUTCDATE()      AS current_utc_datetime;
+
+#Higher Precision
+SELECT SYSDATETIME();
+SELECT  SYSDATETIMEOFFSET();
+SELECT SYSUTCDATETIME()
+
